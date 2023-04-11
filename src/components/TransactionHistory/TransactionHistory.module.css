@@ -1,0 +1,32 @@
+.transaction-history {
+  background-color: rgb(244, 244, 244);
+
+  width: 600px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  margin-top: 40px;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+.transaction-history thead {
+  background-color: rgba(29, 197, 197, 0.911);
+  height: 65px;
+  outline: none;
+}
+.transaction-history th:not(:last-child) {
+  border-right: 1px solid aliceblue;
+}
+.transaction-history th {
+  color: aliceblue;
+  font-size: 26px;
+}
+.transaction-history td {
+  border-right: 1px solid rgba(208, 211, 211, 0.943);
+  padding: 10px;
+  text-align: center;
+}
+
+.transaction-bckgrd {
+  background-color: rgba(192, 192, 192, 0.5);
+}
